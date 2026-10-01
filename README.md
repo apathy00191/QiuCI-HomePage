@@ -36,7 +36,7 @@
 ## 📸 预览
 
 <!-- 把截图放到 screenshots/preview.png 后自动显示 -->
-![预览](screenshots/preview.png)
+![预览](https://github.com/apathy00191/QiuCI-HomePage/blob/main/proview.png)
 
 ## 🚀 快速开始
 
