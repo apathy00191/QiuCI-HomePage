@@ -1,0 +1,22 @@
+🎵 music 文件夹使用说明（秋辞の主页）
+=====================================
+
+方式一（最快）：不用管这个文件夹
+  打开主页后，在右侧「音乐播放器」里点
+  「⊕ 添加本地音乐」直接选电脑里的 mp3，
+  或者把 mp3 文件直接拖到播放器上，立刻就能播。
+
+方式二（写进播放列表，永久生效）
+  1. 把 mp3 放进这个 music 文件夹，例如：
+       music/粉色气泡.mp3
+  2. 用记事本打开上级目录的 index.html，找到配置里的 playlist：
+       playlist: [
+         { title: '内置演示曲 · 星河漫步', artist: 'DreamBox 合成器', src: 'demo0', cover: 'assets/img/cover.png' },
+       ]
+  3. 照着格式加一行：
+       { title: '粉色气泡', artist: '某某歌手', src: 'music/粉色气泡.mp3', cover: 'assets/img/cover.png' },
+
+说明：
+  - src 写 'demo0' ~ 'demo5' 时使用页面内置合成的演示曲（共 6 首），无需任何文件；
+  - 支持 mp3 / wav / flac / m4a / ogg；
+  - 封面图默认是 assets/img/cover.png，可自行替换成同名图片。
