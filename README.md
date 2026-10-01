@@ -43,8 +43,8 @@
 **方式一：本地直接看**
 
 ```bash
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://github.com/apathy00191/QiuCI-HomePage.git
+cd QiuCI-HomePage
 # 双击 index.html 即可
 ```
 
